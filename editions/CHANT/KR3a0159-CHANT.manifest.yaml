@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR3a0159/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0159/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 典論一卷
+  identifiers:
+    krp: KR3a0159
+  tags:
+    tls-dates: dat04500
+    tls-internal:
+    - swl
+    - tr-en
+    - tr-ru
+    kr-categories: KR3a
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0159.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0159_001-CHANT.yaml, hash: 'sha256:365dfce0ec80f2cc5c2fba1b1afad60e10efd2fdf7fd2f25d1be1fae8d9d8007'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0159_001-CHANT.markers.yaml, hash: 'sha256:e7ce627e68105bd62853b928bbe89bb699b884b4b297681356652a0edcad9cc5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0159_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 5550
+  label: 卷上
+  type: section
+  level: 1
+hash: sha256:9381c748182c26ff4d7ecf09f3dc89c09730afe841dbd97ef8f52e7d71fc67bc
